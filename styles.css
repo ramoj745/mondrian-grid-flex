@@ -1,0 +1,86 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to top, #C33764 ,#1D2671);
+  }
+  .flex-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-rows: 414px 130px 155px 20px;
+    grid-template-columns: 320px 198px 153px 50px;
+    border: 20px solid #665a5140;
+    border-radius: 2%;
+    margin-right: 45px;
+  }
+  .red{
+    background-color: #E72F24;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+  }
+  .white{
+    background-color: #F0F1EC;
+  }
+  .one{
+    grid-column: span 3;
+    border-bottom: 10px solid black;
+  }
+  .two{
+    grid-row: span 2;
+    border-bottom:10px solid black;
+    border-right: 10px solid black;
+  }
+  .three{
+    grid-column: span 2;
+    grid-row: span 2;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+  }
+  .four{
+    grid-row: span 2;
+    border-top: 24px solid black;
+  }
+  .five{
+    border-right: 10px solid black;
+  }
+  .yellow{
+    background-color: #F9D01E;
+    border-right: 10px solid black;
+  }
+  .blue{
+    background-color: #004592;
+  }
+  .grey{
+    background-color: #232629;
+    border-right: 10px solid black;
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8587a030;
+    width: 700px;
+    border: 10px;
+    border-radius: 3%;
+    backdrop-filter: blur(20px);
+  }
+  h1{
+    font-family: "Roboto Serif";
+    font-size: 4.5rem;
+    color:#F0F1EC;
+    text-align: center;
+    width: 600px;
+  }
+  p{
+    font-family: 'Roboto Serif';
+    font-size: 2rem;
+    color: #F0F1EC;
+    width: 500px;
+    text-align: center;
+    margin-top: 0
+  }
